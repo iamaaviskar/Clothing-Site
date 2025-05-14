@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  themes: light --default;
+}
+
+body {
+  font-family: "Beatrice Deck Trial", sans-serif;
+}
+
+@theme {
+  --font-beatrix-display-trail: "Beatrice Display Trial", sans-serif;
+  --font-beatrix-deck-trial: "Beatrice Deck Trial", sans-serif;
+  --font-beatrix-headline-trial: "Beatrice Headline  Trial", sans-serif;
+  --font-beatrix-trial: "Beatrice Trial", sans-serif;
+}
