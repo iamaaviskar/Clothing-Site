@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./component/Navbar";
 import NewCollection from "./component/NewCollection";
 import NewThisWeek from "./component/NewThisWeek";
+import XIVCollections from "./component/XIVCollections";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Navbar />
         <NewCollection />
         <NewThisWeek />
+        <XIVCollections />
       </div>
     </>
   );
