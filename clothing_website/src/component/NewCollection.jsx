@@ -41,18 +41,18 @@ export default function NewCollection() {
           </div>
         </div>
 
-        <div>
+        <div className="ml-15">
           <img
             src="./newCollectionPics/newCollection_pic1.png"
             alt="Trousers"
-            className="object-cover"
+            className="object-cover h-100"
           />
         </div>
-        <div>
+        <div className="">
           <img
             src="./newCollectionPics/newCollection_pic2.png"
             alt="Black T-shirt"
-            className="object-cover"
+            className="object-cover h-100"
           />
         </div>
       </div>
