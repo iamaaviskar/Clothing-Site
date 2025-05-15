@@ -58,7 +58,7 @@ export default function NewThisWeek() {
             <div className="flex flex-col relative ">
               <p>NEW</p>
               <p>THIS WEEK</p>
-              <p className="absolute translate-x-60 translate-y-8 font-normal text-[18px] text-[#000E8A]">
+              <p className="absolute translate-x-64 translate-y-8 font-normal text-[18px] text-[#000E8A]">
                 (50)
               </p>
             </div>
