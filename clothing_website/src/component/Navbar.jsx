@@ -61,7 +61,7 @@ export default function Navbar() {
   return (
     <>
       <header className="flex flex-col w-fit space-y-3 lg:space-y-0 md:space-y-0 sm:space-y-0 items-center justify-between px-4 lg:w-full md:w-full font-beatrix-deck-trial sm:flex-row sm:w-full lg:flex-row md:flex-row">
-        <ul className="flex flex-row space-x-8 ml-0 sm:ml-0 md:space-y-2 mb-0">
+        <ul className="flex flex-row space-x-8 ml-0 sm:ml-0 space-y-3 mb-0">
           {[
             <div className="tooltip">
               <div className="tooltip-content ml-16">
