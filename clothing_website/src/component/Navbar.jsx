@@ -2,6 +2,7 @@ import HeartIcon from "../assets/heart.svg";
 import CartIcon from "../assets/cartLogo.svg";
 import UserIcon from "../assets/user.svg";
 import ThreeLines from "../assets/threeLines.svg";
+import { PartyPopper } from "lucide-react";
 
 export default function Navbar() {
   const navItems = [
@@ -64,8 +65,8 @@ export default function Navbar() {
           {[
             <div className="tooltip">
               <div className="tooltip-content ml-16">
-                <div className="animate-bounce text-neutral-300 text-2xl font-black">
-                  horizontal lines
+                <div className="animate-bounce text-neutral-300 text-2xl font-black flex flex-row gap-1">
+                  Surprise <PartyPopper />
                 </div>
               </div>
 
