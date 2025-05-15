@@ -2,6 +2,7 @@ import "./App.css";
 
 import Navbar from "./component/Navbar";
 import NewCollection from "./component/NewCollection";
+import NewThisWeek from "./component/NewThisWeek";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <div className="space-y-6 mt-12">
         <Navbar />
         <NewCollection />
+        <NewThisWeek />
       </div>
     </>
   );
