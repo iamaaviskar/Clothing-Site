@@ -60,8 +60,8 @@ export default function Navbar() {
   ];
   return (
     <>
-      <header className="flex items-center justify-between px-4 font-beatrix-deck-trial">
-        <ul className="flex flex-row space-x-8 ml-10">
+      <header className="flex flex-col w-fit space-y-3 lg:space-y-0 md:space-y-0 sm:space-y-0 items-center justify-between px-4 lg:w-full md:w-full font-beatrix-deck-trial sm:flex-row sm:w-full lg:flex-row md:flex-row">
+        <ul className="flex flex-row space-x-8 ml-0 sm:ml-0 md:space-y-2 mb-0">
           {[
             <div className="tooltip">
               <div className="tooltip-content ml-16">
@@ -70,7 +70,11 @@ export default function Navbar() {
                 </div>
               </div>
 
-              <img src={ThreeLines} alt="ThreeLines" />
+              <img
+                src={ThreeLines}
+                alt="ThreeLines"
+                className="sm:hidden hidden md:hidden lg:block"
+              />
             </div>,
 
             "Home",
@@ -94,7 +98,7 @@ export default function Navbar() {
           <img src="logo.png" alt="logo" className="w-[35px] h-[35px]" />
         </div>
 
-        <ul className="flex flex-row items-center space-x-8 mr-28">
+        <ul className="flex flex-row items-center space-x-8 lg:mr-28 md:mr-0 md:mt-0">
           {navItems.map((item, index) => {
             return (
               <li
