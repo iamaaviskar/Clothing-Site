@@ -60,8 +60,8 @@ export default function Navbar() {
   ];
   return (
     <>
-      <header className="flex flex-col w-fit space-y-3 lg:space-y-0 md:space-y-0 sm:space-y-0 items-center justify-between px-4 lg:w-full md:w-full font-beatrix-deck-trial sm:flex-row sm:w-full lg:flex-row md:flex-row">
-        <ul className="flex flex-row space-x-8 ml-0 sm:ml-0 space-y-3 mb-0">
+      <header className="flex flex-col w-fit space-y-3 lg:space-y-0 md:space-y-0 items-center justify-between px-4 lg:flex-row lg:w-full sm:w-full sm:flex-row sm:space-y-3 md:w-full md:flex-row font-beatrix-deck-trial">
+        <ul className="flex flex-row space-x-8 ml-0 lg:ml-10 sm:ml-0 space-y-3 mb-0">
           {[
             <div className="tooltip">
               <div className="tooltip-content ml-16">
@@ -122,7 +122,7 @@ export default function Navbar() {
             );
           })}
 
-          <label className="input mt-3 bg-[#D9D9D9] rounded-none w-80 p-2 space-x-2 shadow-sm border border-gray-300">
+          <label className="input mt-3 bg-[#D9D9D9] rounded-none w-full p-2 space-x-2 shadow-sm border border-gray-300 sm:w-full lg:w-80 md:w-80">
             <svg
               className="h-[2em] opacity-100"
               xmlns="http://www.w3.org/2000/svg"
