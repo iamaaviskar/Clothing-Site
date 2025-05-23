@@ -29,19 +29,19 @@ export default function XIVCollections() {
             {
               title: "Basic Heavy Weight T-Shirt",
               type: "Cotton T Shirt",
-              price: "$ 199",
+              price: "199",
               img: "XIV_collectionsPics/XIV_collections_1.png",
             },
             {
               title: "Soft Wash Straight Fit Jeans",
               type: "Cotton jeans",
-              price: "$ 199",
+              price: "199",
               img: "newCollectionPics/newCollection_pic1.png",
             },
             {
               title: "Basic Heavy Weight T-Shirt",
               type: "Cotton T Shirt",
-              price: "$ 199",
+              price: "199",
               img: "XIV_collectionsPics/XIV_collections_1.png",
             },
           ].map((item, index) => (
