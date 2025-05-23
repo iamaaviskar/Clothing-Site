@@ -45,17 +45,25 @@ export default function XIVCollections() {
               img: "XIV_collectionsPics/XIV_collections_1.png",
             },
           ].map((item, index) => (
-            <div key={index} className="text-center">
-              <div className="bg-white">
+            <div key={index} className="text-center w-98">
+              <figure className="h-fit w-full rounded-none">
                 <img
                   src={item.img}
                   alt={item.title}
                   className="w-full h-auto object-cover"
                 />
+              </figure>
+              <p className="text-[12px] font-beatrix-deck-trial px-2 text-justify">
+                {item.type}
+              </p>
+              <div className="flex justify-between px-2">
+                <p className="text-[14px] font-beatrix-deck-trial">
+                  {item.title}
+                </p>
+                <p className="text-[14px] font-beatrix-deck-trial">
+                  ${item.price}
+                </p>
               </div>
-              <p className="text-xs text-gray-500 mt-2">{item.type}</p>
-              <p className="text-sm font-medium">{item.title}</p>
-              <p className="text-sm mt-1">{item.price}</p>
             </div>
           ))}
         </div>
