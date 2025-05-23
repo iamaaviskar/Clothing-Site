@@ -4,6 +4,8 @@ import Navbar from "./component/Navbar";
 import NewCollection from "./component/NewCollection";
 import NewThisWeek from "./component/NewThisWeek";
 import XIVCollections from "./component/XIVCollections";
+import ApproachToFashion from "./component/ApproachToFashion";
+import Footer from "./component/Footer";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         <NewCollection />
         <NewThisWeek />
         <XIVCollections />
+        <ApproachToFashion />
+        <Footer />
       </div>
     </>
   );
